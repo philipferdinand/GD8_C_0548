@@ -24,4 +24,3 @@ Route::group(['middleware' => 'auth:api'], function(){
     Route::put('product/{id}', 'Api\ProductController@update');
     Route::delete('product/{id}', 'Api\ProductController@destroy');
 });
-
